@@ -74,7 +74,7 @@ This visualisation is composed of two main representations :
 One of these visualisations acts as 'input' and filters the second one, the 'output' By default, the 'input' visualisation is the choropleth but the user can change it if he or she so wishes it.
  - If the choropleth map is the 'input', then by clicking on a department, the stacked bar chart will show the ten most frequent names in the chosen department ;
  - If the stacked bar chart is the 'input', then by clicking on a name, the choropleth map will show the distribution of the chosen name across all departments.
- - 
+
 There also exist multiple filters :
  - A filter by gender (girls, boys or both) ;
  - A filter by name : the user can choose only to keep names beginning with 'A' ;
