@@ -27,7 +27,26 @@ This section is done on the Tableau visualization sotfware, answering the most g
   - Are there names that have consistently remained popular or unpopular? 
   - Are there some that have were suddenly or briefly popular or unpopular? 
   - Are there trends in time?
-  
+
+### Analysis
+The graph below shows summary analysis of the evolution of births over the last decade by gender :
+
+<p align="center">
+  <img src="/Tableau/BirthsEvolution.png", height=500/>
+</p>
+
+This quick analysis allows us to clearly detect certain patterns. For example we can see how during the First and Second World Wars, the population went from a strong growing trend to a notable decline in births over the war periods. 
+
+What is interesting is we can also see that right after the 2nd World War, there was a strong surge in natalities in france, going from an average of 630k births/year in the 1930s France to a whopping 860k births/year in the 1950s (a 25% increase).
+
+Another trend this visualization reveals is the end of the "30 Glorieuses" during the mid 1970s, a post-war development boom, characterized by a strong economic growth.
+
+The last insight from this chart that we'll focus on is the predictions for the 2020-2030 period as estimated by Tableau's in-built algorithm. We can clearly see the population decline in France has been ongoing for the past decade, and trends estimate that it will continue for the following decade.
+
+<p align="center">
+  <img src="/Tableau/Top10Evolution.gif", height=500/>
+</p>
+
 ## **Visualization 2**: 
 This section is realized using Dash, Dash which is an application that give a point-&-click interface to models written in the Python progamming language, vastly expanding the notion of what's possible in a traditional "dashboard." In this segment, we will be answering :
   - Is there a regional effect in the data?  
