@@ -27,9 +27,9 @@ Our goal is to create 3 different visualizations around these data, each focusse
 
 <p align="center">
   <b>IGR204 - Authors :</b><br>
-  - Souhail OUMAMA
-  - Alexandre ROULEAU
-  - Charles-Elie SIMON
-  - Roland SCHWARTZ
-  - Florian TORROBA
+  - Souhail OUMAMA<br>
+  - Alexandre ROULEAU<br>
+  - Charles-Elie SIMON<br>
+  - Roland SCHWARTZ<br>
+  - Florian TORROBA<br>
 </p>
