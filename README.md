@@ -21,13 +21,15 @@ In this mini-project, we will be working with a data set of baby names in France
 
 Our goal is to create 3 different visualizations around these data, each focussed on answering different kinds of questions about the data:
 
-- **Visualization 1**: This section is done on the Tableau visualization sotfware, answering the most general questions to get a feeling of our data. The questions it aims to anwser are : 
+## **Visualization 1**: 
+This section is done on the Tableau visualization sotfware, answering the most general questions to get a feeling of our data. The questions it aims to anwser are : 
   - How do baby names evolve over time? 
   - Are there names that have consistently remained popular or unpopular? 
   - Are there some that have were suddenly or briefly popular or unpopular? 
   - Are there trends in time?
   
-- **Visualization 2**: This section is realized using Dash, Dash which is an application that give a point-&-click interface to models written in the Python progamming language, vastly expanding the notion of what's possible in a traditional "dashboard." In this segment, we will be answering :
+## **Visualization 2**: 
+This section is realized using Dash, Dash which is an application that give a point-&-click interface to models written in the Python progamming language, vastly expanding the notion of what's possible in a traditional "dashboard." In this segment, we will be answering :
   - Is there a regional effect in the data?  
   - Are some names more popular in some regions? 
   - Are popular names generally popular across the whole country?
