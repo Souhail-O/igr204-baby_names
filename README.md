@@ -52,7 +52,9 @@ The last insight from this chart that we'll focus on is the predictions for the 
 
 This visualization allows us to examine how names evolved over time, mainly for the top 10 given names by year. 
 
-As we can observe, things have changed over the course of the 20th century. Let us examine how some names evolved over time : 
+As we can observe, things have changed over the course of the 20th century, and much of the trends we described earlier manifests their effects on each name, of course with subtle differences as each lived its own cycle.
+
+Let us now examine how some names evolved over time : 
 - **Marie** : Peaked at the beginning of the century and has been on a constant decline for over 100 years.
 - **Jean** : Already the most common name in the early 1900s, this name has reached its peak in 1946 before fading away as well. The popularity of the name during the early 40s might have to do with Jean Moulin, the famous French resistant after the end of the Second World War.
 - **Philippe** This name has been riding low on the radar until the 1950s where it started tracting popularity among newborns, until it peaked in 1964, all before fading away as well
