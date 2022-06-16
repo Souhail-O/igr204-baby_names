@@ -8,6 +8,30 @@
   Lab4 - Baby Names
 </p>
 
+<p align="center">
+  <b>IGR204 - Authors :</b><br>
+  - Souhail OUMAMA<br>
+  - Alexandre ROULEAU<br>
+  - Charles-Elie SIMON<br>
+  - Roland SCHWARTZ<br>
+  - Florian TORROBA<br>
+</p>
+
+
+<p align="center">
+  <b>IGR204 - Authors :</b><br>
+  <ul>
+  <li>Souhail OUMAMA</li>
+  <li>Alexandre ROULEAU</li>
+  <li>Charles-Elie SIMON</li>
+  <li>Roland SCHWARTZ</li>
+  <li>Florian TORROBA</li>
+
+  </ul>
+</p>
+
+
+
 In this mini-project, we will be working with a data set of baby names in France. It contains the list of all baby names registered in France, year by year, from 1900 through 2019. There are two data sets: one aggregated to the national level, and another with data by department. 
 
 Our goal is to create 3 different visualizations around these data, each focussed on answering different kinds of questions about the data:
@@ -25,11 +49,4 @@ Our goal is to create 3 different visualizations around these data, each focusse
 
 - **Visualization 3**: Are there gender effects in the data? Does popularity of names given to both sexes evolve consistently? (Note: this data set treats sex as binary; this is a simplification that carries into this assignment but does not generally hold.)
 
-<p align="center">
-  <b>IGR204 - Authors :</b><br>
-  - Souhail OUMAMA<br>
-  - Alexandre ROULEAU<br>
-  - Charles-Elie SIMON<br>
-  - Roland SCHWARTZ<br>
-  - Florian TORROBA<br>
-</p>
+
