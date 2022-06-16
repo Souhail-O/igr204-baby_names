@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <b>Post Masters' Degree in Artificial Intelligence - 2021/2022</b><br>
   <b>IGR204 - Data Visualization</b><br>
   <i>Pr. James EAGAN</i><br>
   Lab4 - Baby Names
