@@ -33,7 +33,7 @@ This section is done on the Tableau visualization sotfware, answering the most g
 The graph below shows summary analysis of the evolution of births over the last decade by gender :
 
 <p align="center">
-  <img src="/Tableau/BirthsEvolution.png", height=500/>
+  <img src="/Tableau/images/BirthsEvolution.png", height=500/>
 </p>
 
 This quick analysis allows us to clearly detect certain patterns. For example we can see how during the First and Second World Wars, the population went from a strong growing trend to a notable decline in births over the war periods. 
@@ -47,7 +47,7 @@ The last insight from this chart that we'll focus on is the predictions for the 
 #### Names Evolution
 
 <p align="center">
-  <img src="/Tableau/Top10Evolution.gif"/>
+  <img src="/Tableau/images/Top10Evolution.gif"/>
 </p>
 
 
