@@ -58,6 +58,8 @@ The last insight from this chart that we'll focus on is the predictions for the 
   <img src="/Tableau/images/Top10Evolution.gif"/>
 </p>
 
+WHERE ARE YOU?
+
 This visualization allows us to examine how names evolved over time, mainly for the top 10 given names by year. 
 
 As we can observe, things have changed over the course of the 20th century, and much of the trends we described earlier manifest their effects on each name, of course with subtle differences as each lived its own cycle.
