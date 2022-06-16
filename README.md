@@ -1,4 +1,7 @@
-![alt text](https://upload.wikimedia.org/wikipedia/fr/d/d9/Logo_T%C3%A9l%C3%A9com_ParisTech.svg){height:200;}
+<p align="center">
+  <img src="[http://some_place.com/image.png](https://upload.wikimedia.org/wikipedia/fr/d/d9/Logo_T%C3%A9l%C3%A9com_ParisTech.svg)" />
+</p>
+
 
 # igr204-baby_names
 
