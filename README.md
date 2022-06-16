@@ -53,7 +53,7 @@ The last insight from this chart that we'll focus on is the predictions for the 
 
 This visualization allows us to examine how names evolved over time, mainly for the top 10 given names by year. 
 
-As we can observe, things have changed over the course of the 20th century, and much of the trends we described earlier manifests their effects on each name, of course with subtle differences as each lived its own cycle.
+As we can observe, things have changed over the course of the 20th century, and much of the trends we described earlier manifest their effects on each name, of course with subtle differences as each lived its own cycle.
 
 Let us now examine how some names evolved over time : 
 - **Marie** : Peaked at the beginning of the century and has been on a constant decline for over 100 years.
