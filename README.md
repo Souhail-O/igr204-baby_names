@@ -31,6 +31,13 @@ This section is done on the Tableau visualization sotfware, answering the most g
 
 ### Analysis
 #### Births Evolution
+A global overview of the visualization is presented below. The interactive components are accessible through the Tableau Software.
+
+<p align="center">
+  <img src="/Tableau/images/Overview.png", height=500/>
+</p>
+
+
 The graph below shows summary analysis of the evolution of births over the last decade by gender :
 
 <p align="center">
