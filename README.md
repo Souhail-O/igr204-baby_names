@@ -67,6 +67,21 @@ This section is realized using Dash, Dash which is an application that give a po
   - Are some names more popular in some regions? 
   - Are popular names generally popular across the whole country?
 
+This visualisation is composed of two main representations :
+ - a choropleth map showing the distribution of names across departments ;
+ - a stacked bar chart showing the 10 most frequent names.
+
+One of these visualisations acts as 'input' and filters the second one, the 'output' By default, the 'input' visualisation is the choropleth but the user can change it if he or she so wishes it.
+ - If the choropleth map is the 'input', then by clicking on a department, the stacked bar chart will show the ten most frequent names in the chosen department ;
+ - If the stacked bar chart is the 'input', then by clicking on a name, the choropleth map will show the distribution of the chosen name across all departments.
+ - 
+There also exist multiple filters :
+ - A filter by gender (girls, boys or both) ;
+ - A filter by name : the user can choose only to keep names beginning with 'A' ;
+ - A filter by years : the user choose a start and end year and only names between this interval shall be kept.
+
+This visualisation allows the user to quickly see which names are the most popular in the country, their distribution as well as the presence in some departments (chosen by the user) of more 'unique' names.
+
 ## **Visualization 3**: 
 Are there gender effects in the data? Does popularity of names given to both sexes evolve consistently? (Note: this data set treats sex as binary; this is a simplification that carries into this assignment but does not generally hold.)
 
