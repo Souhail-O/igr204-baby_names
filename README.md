@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-  IGR204 - Data Visualization
+  <b>IGR204 - Data Visualization</b>
+  <br>
   Lab4 - Baby Names
 </p>
 
