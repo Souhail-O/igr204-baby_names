@@ -24,3 +24,12 @@ Our goal is to create 3 different visualizations around these data, each focusse
   - Are popular names generally popular across the whole country?
 
 - **Visualization 3**: Are there gender effects in the data? Does popularity of names given to both sexes evolve consistently? (Note: this data set treats sex as binary; this is a simplification that carries into this assignment but does not generally hold.)
+
+<p align="center">
+  <b>IGR204 - Authors :</b><br>
+  - Souhail OUMAMA
+  - Alexandre ROULEAU
+  - Charles-Elie SIMON
+  - Roland SCHWARTZ
+  - Florian TORROBA
+</p>
