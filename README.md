@@ -34,6 +34,7 @@ This section is realized using Dash, Dash which is an application that give a po
   - Are some names more popular in some regions? 
   - Are popular names generally popular across the whole country?
 
-- **Visualization 3**: Are there gender effects in the data? Does popularity of names given to both sexes evolve consistently? (Note: this data set treats sex as binary; this is a simplification that carries into this assignment but does not generally hold.)
+## **Visualization 3**: 
+Are there gender effects in the data? Does popularity of names given to both sexes evolve consistently? (Note: this data set treats sex as binary; this is a simplification that carries into this assignment but does not generally hold.)
 
 
