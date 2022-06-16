@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <b>IGR204 - Data Visualization</b>
-  <br>
+  <b>IGR204 - Data Visualization</b><br>
+  <i>Pr. James EAGAN</i><br>
   Lab4 - Baby Names
 </p>
 
