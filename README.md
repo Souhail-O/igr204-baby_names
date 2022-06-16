@@ -29,6 +29,7 @@ This section is done on the Tableau visualization sotfware, answering the most g
   - Are there trends in time?
 
 ### Analysis
+#### Births Evolution
 The graph below shows summary analysis of the evolution of births over the last decade by gender :
 
 <p align="center">
@@ -43,9 +44,12 @@ Another trend this visualization reveals is the end of the "30 Glorieuses" durin
 
 The last insight from this chart that we'll focus on is the predictions for the 2020-2030 period as estimated by Tableau's in-built algorithm. We can clearly see the population decline in France has been ongoing for the past decade, and trends estimate that it will continue for the following decade.
 
+#### Names Evolution
+
 <p align="center">
-  <img src="/Tableau/Top10Evolution.gif", height=500/>
+  <img src="/Tableau/Top10Evolution.gif"/>
 </p>
+
 
 ## **Visualization 2**: 
 This section is realized using Dash, Dash which is an application that give a point-&-click interface to models written in the Python progamming language, vastly expanding the notion of what's possible in a traditional "dashboard." In this segment, we will be answering :
