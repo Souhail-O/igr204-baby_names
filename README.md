@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b font-size: 10em> Authors :</b><br>
+  <b> Authors :</b><br>
   - Souhail OUMAMA<br>
   - Alexandre ROULEAU<br>
   - Charles-Elie SIMON<br>
