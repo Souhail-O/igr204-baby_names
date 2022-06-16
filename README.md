@@ -50,6 +50,13 @@ The last insight from this chart that we'll focus on is the predictions for the 
   <img src="/Tableau/images/Top10Evolution.gif"/>
 </p>
 
+This visualization allows us to examine how names evolved over time, mainly for the top 10 given names by year. 
+
+As we can observe, things have changed over the course of the 20th century. Let us examine how some names evolved over time : 
+- **Marie** : Peaked at the beginning of the century and has been on a constant decline for over 100 years.
+- **Jean** : Already the most common name in the early 1900s, this name has reached its peak in 1946 before fading away as well. The popularity of the name during the early 40s might have to do with Jean Moulin, the famous French resistant after the end of the Second World War.
+- **Philippe** This name has been riding low on the radar until the 1950s where it started tracting popularity among newborns, until it peaked in 1964, all before fading away as well
+- **Uncommon Names** : Starting in the mid-40s, newer names were given to babies more and more often, until 1974 where the newcomers dominated the game, as in 2020, they represent more than 90% of the overall newborns. This doesn't mean that the previously mentioned names have disappeard all together, but their numbers have been dilluted into all their variants.
 
 ## **Visualization 2**: 
 This section is realized using Dash, Dash which is an application that give a point-&-click interface to models written in the Python progamming language, vastly expanding the notion of what's possible in a traditional "dashboard." In this segment, we will be answering :
