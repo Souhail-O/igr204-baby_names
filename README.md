@@ -37,13 +37,6 @@ A global overview of the visualization is presented below. The interactive compo
   <img src="/Tableau/images/Overview.png", height=500/>
 </p>
 
-
-The  :
-
-<p align="center">
-  <img src="/Tableau/images/BirthsEvolution.png", height=500/>
-</p>
-
 A quick analysis of the lowest graphs (evolution of births over the last century by gender) allows us to clearly detect certain patterns. For example we can see how during the First and Second World Wars, the population went from a strong growing trend to a notable decline in births over the war periods. 
 
 What is interesting is we can also see that right after the 2nd World War, there was a strong surge in natalities in france, going from an average of 630k births/year in the 1930s France to a whopping 860k births/year in the 1950s (a 25% increase).
@@ -57,8 +50,6 @@ The last insight from this chart that we'll focus on is the predictions for the 
 <p align="center">
   <img src="/Tableau/images/Top10Evolution.gif"/>
 </p>
-
-WHERE ARE YOU?
 
 This visualization allows us to examine how names evolved over time, mainly for the top 10 given names by year. 
 
