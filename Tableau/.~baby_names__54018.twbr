@@ -5,6 +5,7 @@
   <document-format-change-manifest>
     <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
     <IntuitiveSorting />
     <IntuitiveSorting_SP2 />
     <MapboxVectorStylesAndLayers />
@@ -28,7 +29,7 @@
     <_.fcp.MarkAnimation.true...style-rule element='animation'>
       <format attr='animation-style' value='as-phased' />
       <format attr='animation-on' value='ao-on' />
-      <format attr='animation-duration' value='0.34999999403953552' />
+      <format attr='animation-duration' value='0.30000001192092896' />
     </_.fcp.MarkAnimation.true...style-rule>
   </style>
   <datasources>
@@ -31451,7 +31452,11 @@
           </slices>
           <aggregation value='true' />
         </view>
-        <style />
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.19kj0d41120fb116ftc9w1m4p7ka].[fVal:sum:Calculation_1866460616216928274:qk]' field-type='quantitative' major-origin='0' major-spacing='100000.0' minor-origin='0' minor-spacing='50000' scope='cols' type='space' />
+          </style-rule>
+        </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
@@ -32189,6 +32194,67 @@
       </devicelayouts>
       <simple-id uuid='{1A0FEE34-54CB-4067-B55F-E155D2B267FB}' />
     </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Tableau de bord 4'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98160' id='7' param='horz' type-v2='layout-flow' w='98870' x='565' y='920'>
+            <zone h='98160' id='5' type-v2='layout-basic' w='87563' x='565' y='920'>
+              <zone h='98160' id='3' name='Top 10' w='87563' x='565' y='920'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98160' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='11307' x='88128' y='920'>
+              <zone h='25977' id='8' name='Top 10' pane-specification-id='0' param='[federated.19kj0d41120fb116ftc9w1m4p7ka].[none:preusuel:nk]' type-v2='color' w='11307' x='88128' y='920'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='12644' id='9' name='Top 10' synchronized='1' type-v2='currpage' w='11307' x='88128' y='26897'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7DC1A55A-4ABA-4454-8608-D145512C35F3}' />
+    </dashboard>
   </dashboards>
   <windows pres-mode='true' source-height='93'>
     <window class='dashboard' name='Tableau de bord 3'>
@@ -32230,7 +32296,7 @@
     <window class='worksheet' name='BirthsEvolution'>
       <cards>
         <edge name='left'>
-          <strip size='160'>
+          <strip size='100'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
@@ -32248,14 +32314,14 @@
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='170'>
+          <strip size='100'>
             <card pane-specification-id='0' param='[federated.19kj0d41120fb116ftc9w1m4p7ka].[none:Calculation_1866460616144150543:nk]&#10;[federated.19kj0d41120fb116ftc9w1m4p7ka].[none:Forecast Indicator:nk]' type='color' />
           </strip>
         </edge>
       </cards>
       <simple-id uuid='{30C5D672-5076-4576-8853-EA367394E0EE}' />
     </window>
-    <window class='worksheet' maximized='true' name='BirthsEvolution (2)'>
+    <window class='worksheet' name='BirthsEvolution (2)'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -32341,7 +32407,7 @@
       <viewpoint>
         <current-page>
           <multibucket>
-            <bucket>1952</bucket>
+            <bucket>2013</bucket>
           </multibucket>
         </current-page>
       </viewpoint>
@@ -32505,6 +32571,20 @@
         </edge>
       </cards>
       <simple-id uuid='{18CAB6B0-0711-4D15-B420-7ED8E3481805}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Tableau de bord 4'>
+      <viewpoints>
+        <viewpoint name='Top 10'>
+          <current-page>
+            <multibucket>
+              <bucket>1925</bucket>
+            </multibucket>
+          </current-page>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{341EC9B0-F49D-460C-A622-CF945F0BCF94}' />
     </window>
   </windows>
 </workbook>
