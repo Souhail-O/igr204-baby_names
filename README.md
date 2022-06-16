@@ -20,7 +20,7 @@
 
 <p align="center">
   <b>IGR204 - Authors :</b><br>
-  <ul>
+  <ul align="center">
   <li>Souhail OUMAMA</li>
   <li>Alexandre ROULEAU</li>
   <li>Charles-Elie SIMON</li>
