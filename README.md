@@ -65,7 +65,7 @@ The center graph, on the other hand, illustrates the yearly evolution of top 10 
  - a choropleth map showing the distribution of names across departments ;
  - a stacked bar chart showing the 10 most frequent names.
 
-One of these visualisations acts as 'input' and filters the second one, the 'output' By default, the 'input' visualisation is the choropleth but the user can change it if he or she so wishes it.
+One of these visualisations acts as 'input' and filters the second one, the 'output'. By default, the 'input' visualisation is the choropleth but the user can change it if he or she so wishes it.
 
  - If the choropleth map is the 'input', then by clicking on a department, the stacked bar chart will show the ten most frequent names in the chosen department ;
  - If the stacked bar chart is the 'input', then by clicking on a name, the choropleth map will show the distribution of the chosen name across all departments.
@@ -81,7 +81,7 @@ There also exist multiple filters :
 
 This visualisation allows the user to quickly see which names are the most popular in the country, their distribution as well as the presence in some departments (chosen by the user) of more 'unique' names.
 
-For instance, the user can choose as 'input' the bar chart and filter the data by keeping only girls. If he clicks on 'Marie', it is shown that 'Marie' is mostly present in the western as well as northernmost and easternmost parts of France. Despite differences of population, there are 25K more 'Marie' in 'Finistère' than in 'Paris'. The same can be said of the name 'Anne'. Conversely for another popular name such as 'Catherine', the distribution is much more uniform.
+For instance, the user can choose as 'input' the bar chart and filter the data by keeping only girls. If they click on 'Marie', it is shown that 'Marie' is mostly present in the western as well as northernmost and easternmost parts of France. Despite differences of population, there are 25K more 'Marie' in 'Finistère' than in 'Paris'. The same can be said of the name 'Anne'. Conversely for another popular name such as 'Catherine', the distribution is much more uniform.
 
 <p align="center">
   <img src="/Dash/Dash_1.png", height=250/>
