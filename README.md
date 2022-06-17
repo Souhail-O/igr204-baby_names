@@ -61,18 +61,24 @@ This helps us see the (un)popularity of the selected names over time.
 
 The center graph, on the other hand, illustrates the yearly evolution of top 10 attributed names of all time. The choice of the stacked graph here is justified by the *Pop-Out* effect it generates, as each name is encoded by a different color, allowing the viewer to immediately see how the popularity of names rises and falls. 
 
-## **Visualization 2**: 
+## **Visualization 2**:
+This segment uses Dash with Plotly, to try to answer these questions : 
+ - Is there a regional effect in the data? 
+ - Are some names more popular in some regions? 
+ - Are popular names generally popular across the whole country?
+
+The Dashboard includes : 
  - a choropleth map showing the distribution of names across departments ;
  - a stacked bar chart showing the 10 most frequent names.
 
 One of these visualisations acts as 'input' and filters the second one, the 'output'. By default, the 'input' visualisation is the choropleth but the user can change it if he or she so wishes it.
 
- - If the choropleth map is the 'input', then by clicking on a department, the stacked bar chart will show the ten most frequent names in the chosen department ;
- - If the stacked bar chart is the 'input', then by clicking on a name, the choropleth map will show the distribution of the chosen name across all departments.
- 
+ - If the choropleth map is the 'input', then by clicking on a department, the stacked bar chart will show the ten most frequent names in the chosen department. This is particularly useful to see regional effects and see the popularity of names within a region.
+ - If the stacked bar chart is the 'input', then by clicking on a name, the choropleth map will show the distribution of the chosen name across all departments. 
+
 As 'input', there exist two versions for the choropleth map :
  - 'Population' shows the number of births by department ;
- - 'Max names' shows the most frequent name by department. 
+ - 'Max names' shows the most frequent name by department. This graph is also useful to see regional effects across the country, on a glance).
 
 There also exist multiple filters :
  - A filter by gender (girls, boys or both) ;
@@ -91,7 +97,7 @@ For instance, the user can choose as 'input' the bar chart and filter the data b
   <img src="/Dash/Dash_2.png", height=250/>
 </p>
 
-If the user chooses as 'input' Map (Max names) and filters the data by keeping only boys, then we can see that there are only 4 unique names that are the most frequent names in a department with 'Jean' being crealy the most important. However, if we filter with years and keep only the decade 2010-2020, then we can see a far greater degree of diversity with 13 different names with some regional particularities : 'Jules' being mostly present in the eastern part of France.
+If the user chooses as 'input' Map (Max names) and filters the data by keeping only boys, then we can see that there are only 4 unique names that are the most frequent names in a department with 'Jean' being clearly the most important. However, if we filter with years and keep only the decade 2010-2020, then we can see a far greater degree of diversity with 13 different names with some regional particularities : 'Jules' being mostly present in the eastern part of France.
 
 <p align="center">
   <img src="/Dash/Dash_3.png", height=250/>
@@ -101,9 +107,7 @@ If the user chooses as 'input' Map (Max names) and filters the data by keeping o
   <img src="/Dash/Dash_4.png", height=250/>
 </p>
 
+The choropleth is the obvious choice for visualizing regional tendencies in data. 
+We keep in mind, that it can lead to false interpretations if read too quickly (area should not be confounded with population).
+
 **Addendum**: Due to some technical difficulties, the option to filter the barchat while using 'Max names' choropleth map is disabled. Moreover, filtering by name can take a bit of time.
-
-## **Visualization 3**: 
-Are there gender effects in the data? Does popularity of names given to both sexes evolve consistently? (Note: this data set treats sex as binary; this is a simplification that carries into this assignment but does not generally hold.)
-
-
