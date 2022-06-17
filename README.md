@@ -24,20 +24,20 @@ Our goal is to create 3 different visualizations around these data, each focusse
 
 ## **Visualization 1**: 
 This section is done on the Tableau visualization sotfware, answering the most general questions to get a feeling of our data. The questions it aims to anwser are : 
+  - Are there trends in time?
   - How do baby names evolve over time? 
   - Are there names that have consistently remained popular or unpopular? 
   - Are there some that have were suddenly or briefly popular or unpopular? 
-  - Are there trends in time?
 
 ### Analysis
-#### Births Evolution
 A global overview of the visualization is presented below. The interactive components are accessible through the Tableau Software.
 
 <p align="center">
   <img src="/Tableau/images/Tableau_Overview.png", height=500/>
 </p>
 
-A quick analysis of the lowest graphs (evolution of births over the last century by gender) allows us to clearly detect certain patterns. For example we can see how during the First and Second World Wars, the population went from a strong growing trend to a notable decline in births over the war periods. 
+#### Baby Names Evolution
+A quick analysis of 2 graphs at the bottom of the visualization (evolution of births over the last century by gender) allows us to clearly detect certain patterns. For example we can see how during the First and Second World Wars, the population went from a strong growing trend to a notable decline in births over the war periods. 
 
 What is interesting is we can also see that right after the 2nd World War, there was a strong surge in natalities in france, going from an average of 630k births/year in the 1930s France to a whopping 860k births/year in the 1950s (a 25% increase).
 
@@ -45,21 +45,18 @@ Another trend this visualization reveals is the end of the "30 Glorieuses" durin
 
 The last insight from this chart that we'll focus on is the predictions for the 2020-2030 period as estimated by Tableau's in-built algorithm. We can clearly see the population decline in France has been ongoing for the past decade, and trends estimate that it will continue for the following decade.
 
-#### Names Evolution
+The data we have is binary (Male and Female). Therefore to be able to visualize the total number of births per year, we chose to use a stacked graph. 
 
-<p align="center">
-  <img src="/Tableau/images/Top10Evolution.gif"/>
-</p>
+#### Name popularity
 
-This visualization allows us to examine how names evolved over time, mainly for the top 10 given names by year. 
+The 2 graphs on the top of the dashboard are the part of the visualization that help us answer these questions : 
+  - Are there names that have consistently remained popular or unpopular? 
+  - Are there some that have were suddenly or briefly popular or unpopular? 
 
-As we can observe, things have changed over the course of the 20th century, and much of the trends we described earlier manifest their effects on each name, of course with subtle differences as each lived its own cycle.
+The graph on the left dynamically shows the top 10 attributed names for the considered year.
+It is useful as it reflects which names have remained in the ranking and for how long, depicting trends of names that remained popular over decades, such as "Marie" or "Pierre". It also allows us to see spikes (i.e. names whose popularity was brief, for example "Philippe").
 
-Let us now examine how some names evolved over time : 
-- **Marie** : Peaked at the beginning of the century and has been on a constant decline for over 100 years.
-- **Jean** : Already the most common name in the early 1900s, this name has reached its peak in 1946 before fading away as well. The popularity of the name during the early 40s might have to do with Jean Moulin, the famous French resistant after the end of the Second World War.
-- **Philippe** This name has been riding low on the radar until the 1950s where it started tracting popularity among newborns, until it peaked in 1964, all before fading away as well
-- **Uncommon Names** : Starting in the mid-40s, newer names were given to babies more and more often, until 1974 where the newcomers dominated the game, as in 2020, they represent more than 90% of the overall newborns. This doesn't mean that the previously mentioned names have disappeard all together, but their numbers have been dilluted into all their variants.
+The center graph, on the other hand, illustrates the yearly evolution of top 10 attributed names of all time. The choice of the stacked graph here is justified by the *Pop-Out* effect it generates, as each name is encoded by a different color, allowing the viewer to immediately see how the popularity of names rises and falls. 
 
 ## **Visualization 2**: 
  - a choropleth map showing the distribution of names across departments ;
