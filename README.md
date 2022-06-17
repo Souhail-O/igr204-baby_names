@@ -53,8 +53,11 @@ The 2 graphs on the top of the dashboard are the part of the visualization that 
   - Are there names that have consistently remained popular or unpopular? 
   - Are there some that have were suddenly or briefly popular or unpopular? 
 
-The graph on the left dynamically shows the top 10 attributed names for the considered year.
-It is useful as it reflects which names have remained in the ranking and for how long, depicting trends of names that remained popular over decades, such as "Marie" or "Pierre". It also allows us to see spikes (i.e. names whose popularity was brief, for example "Philippe").
+The graph on the top left dynamically shows the top 10 attributed names for the considered year.
+It is useful as it reflects which names have remained in the ranking and for how long, depicting trends of names that remained popular over decades, such as "Marie" or "Pierre". It also allows us to see spikes (i.e. names whose popularity was brief, for example "Philippe"). 
+
+The graph on the top right shows us the evolution of names *starting with* the value of the "Prénom" filter (or all if the field is blank).
+This helps us see the (un)popularity of the selected names over time.
 
 The center graph, on the other hand, illustrates the yearly evolution of top 10 attributed names of all time. The choice of the stacked graph here is justified by the *Pop-Out* effect it generates, as each name is encoded by a different color, allowing the viewer to immediately see how the popularity of names rises and falls. 
 
