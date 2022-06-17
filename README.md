@@ -34,7 +34,7 @@ This section is done on the Tableau visualization sotfware, answering the most g
 A global overview of the visualization is presented below. The interactive components are accessible through the Tableau Software.
 
 <p align="center">
-  <img src="/Tableau/images/Overview.png", height=500/>
+  <img src="/Tableau/images/Tableau_Overview.png", height=500/>
 </p>
 
 A quick analysis of the lowest graphs (evolution of births over the last century by gender) allows us to clearly detect certain patterns. For example we can see how during the First and Second World Wars, the population went from a strong growing trend to a notable decline in births over the war periods. 
