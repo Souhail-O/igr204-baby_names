@@ -83,7 +83,23 @@ This visualisation allows the user to quickly see which names are the most popul
 
 For instance, the user can choose as 'input' the bar chart and filter the data by keeping only girls. If he clicks on 'Marie', it is shown that 'Marie' is mostly present in the western as well as northernmost and easternmost parts of France. Despite differences of population, there are 25K more 'Marie' in 'Finistère' than in 'Paris'. The same can be said of the name 'Anne'. Conversely for another popular name such as 'Catherine', the distribution is much more uniform.
 
+<p align="center">
+  <img src="/Dash/images/Dash_1.png", height=500/>
+</p>
+
+<p align="center">
+  <img src="/Dash/Dash_2.png", height=500/>
+</p>
+
 If the user chooses as 'input' Map (Max names) and filters the data by keeping only boys, then we can see that there are only 4 unique names that are the most frequent names in a department with 'Jean' being crealy the most important. However, if we filter with years and keep only the decade 2010-2020, then we can see a far greater degree of diversity with 13 different names with some regional particularities : 'Jules' being mostly present in the eastern part of France.
+
+<p align="center">
+  <img src="/Dash/Dash_3.png", height=500/>
+</p>
+
+<p align="center">
+  <img src="/Dash/Dash_4.png", height=500/>
+</p>
 
 **Addendum**: Due to some technical difficulties, the option to filter the barchat while using 'Max names' choropleth map is disabled. Moreover, filtering by name can take a bit of time.
 
