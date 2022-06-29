@@ -111,3 +111,54 @@ The choropleth is the obvious choice for visualizing regional tendencies in data
 We keep in mind, that it can lead to false interpretations if read too quickly (area should not be confounded with population).
 
 **Addendum**: Due to some technical difficulties, the option to filter the barchat while using 'Max names' choropleth map is disabled. Moreover, filtering by name can take a bit of time.
+
+This segment uses Dash with Plotly, to try to answer these questions:
+ - Are there gender effects in the data?
+ - Does popularity of names given to both sexes evolve consistently?
+
+The Dashboard includes :
+ - a bar chart indicating the distribution of names across male and female gender;
+ - a line chart showing the evolution of these names through time.
+
+We use the following formula to define the distribution of a name across genders :
+ - 1 - (abs(P(M) - P(F)) / max(P(M) - P(F)))
+ - where P(M) is the probability that the name is assigned to a boy
+ - and P(F) the probability that it is assigned to a girl
+The closer it is to 1 the more equally it is spread between boys and girls. When it equals 0, it is exclusively given to one gender.
+
+In order to avoid too uncommon names, we only keep those with more than 5OO occurences.
+
+The user can choose the color scheme for the bar chart:
+ - Show gender ratio: transforms the bar chart into a stacked bar chart with the distribution for boys in blue and girls in gold
+ - Show total number: use a color scale showing the number of times a name was given
+
+Furthermore, clicking on a name in the bar chart transforms the line chart into a stacked line chart showing the distribution across time for boys in blue and girls in gold.
+
+Finally, we can filter the data in two ways :
+ - Filter by names (e.g. only keep names starting with 'A')
+ - Filter by dates
+    
+This visualisation allows the user to quickly see names that are popular for boys and girls as well as its evolution through time (as time passes, does it become a name more for boys or girls ?).
+
+<p align="center">
+  <img src="/Dash/Dash_5.png", height=250/>
+</p>
+
+For instance, we will see the distribution of names across genders between 1960 and 1970.
+
+We can observe that names which are popular for both genders tend to only be popular for both during a short period of time (i.e. between 1940 and 1960) and there exist strong variations between each years which could indicate that there are few occurences of these names.
+
+There are however two exceptions: Camille which remained fairly popular for both genders throughout the years and, to a lesser extend, Dominique.
+
+<p align="center">
+  <img src="/Dash/Dash_6.png", height=250/>
+</p>
+
+If we click on 'Camille', we can see its distribution through time. We can see that that before 1960, this name was mostly given to boys and after 1970, that it was mostly given to girls.
+During the period 1960-1970, the name was not popular which explains the strong variations occuring during those years as well as the pic of 1963 shown in the previous image.
+
+<p align="center">
+  <img src="/Dash/Dash_7.png", height=250/>
+</p>
+
+If we click on 'Joan', we can observe that before 1960, the name was not popular and was almost exclusively given to girls. However starting from 1960, the name became incrreasingly popular bu only with boys. During a short period of time, it was given almost equally to boys and girls thus explaining the distribution values during this period.
