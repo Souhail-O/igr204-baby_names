@@ -52,7 +52,7 @@ One shortcoming of the visualization that should be pointed out is the fact that
 For an honest representation of the data, we should filter by year first, then choose the 10 least given names that year. 
 Tableau does the opposite as it ranks the names based on how many times they were given (all time across the country), and then filters on the year. This is the only way we have found to allow the interactivity of the year filter (on the right) with the Race Bar Charts.
 
-The limits we saw to these *Race Bar Charts*  is that we can only see the data from names that are in the top 10 for the given year (and not for any name that we might be interested in). Another limit is that we only see the data for a given year, which means we need to do some work mentally to represent the data over time.
+The limits we saw to these *Race Bar Charts*  is that we can only see the data from names that are in the top 10 and bottom 10 for the given year (and not for any name that we might be interested in). Another limit is that we only see the data for a given year, which means we need to do some work mentally to represent the data over time.
 
 That is why we incorporated the upper right chart, which shows us the evolution of names *starting with* the value of the "Prénom" filter (or all if the field is blank).
 This helps us see the (un)popularity of the selected names over time. This solves the two previous issues by allowing to filter by names (i.e. letting the user select a name of his/her choice), and by showing the evolution over time directly (as time is encoded through the x-axis).
@@ -77,7 +77,7 @@ One of these visualisations acts as 'input' and filters the second one, the 'out
 
 As 'input', there exist two versions for the choropleth map :
  - 'Population' shows the number of births by department ;
- - 'Max names' shows the most frequent name by department. This graph is also useful to see regional effects across the country, on a glance).
+ - 'Max names' shows the most frequent name by department. This graph is also useful to see regional effects across the country, on a glance.
 
 There also exist multiple filters :
  - A filter by gender (girls, boys or both) ;
@@ -121,12 +121,12 @@ The Dashboard includes :
  - a line chart showing the evolution of these names through time.
 
 We use the following formula to define the distribution of a name across genders :
- - 1 - (abs(P(M) - P(F)) / max(P(M) - P(F)))
+$1 - \frac{\|P(M) - P(F)\|}{max(P(M) - P(F))}$
  - where P(M) is the probability that the name is assigned to a boy
  - and P(F) the probability that it is assigned to a girl
 The closer it is to 1 the more equally it is spread between boys and girls. When it equals 0, it is exclusively given to one gender.
 
-In order to avoid too uncommon names, we only keep those with more than 5OO occurences.
+In order to avoid too uncommon names, we only keep those with more than 500 occurences.
 
 The user can choose the color scheme for the bar chart:
  - Show gender ratio: transforms the bar chart into a stacked bar chart with the distribution for boys in blue and girls in gold
@@ -155,7 +155,7 @@ There are however two exceptions: Camille which remained fairly popular for both
 </p>
 
 If we click on 'Camille', we can see its distribution through time. We can see that that before 1960, this name was mostly given to boys and after 1970, that it was mostly given to girls.
-During the period 1960-1970, the name was not popular which explains the strong variations occuring during those years as well as the pike of 1963 shown in the previous image.
+During the period 1960-1970, the name was not popular which explains the strong variations occuring during those years as well as the peak of 1963 shown in the previous image.
 
 <p align="center">
   <img src="/Dash/Dash_7.png", height=250/>
