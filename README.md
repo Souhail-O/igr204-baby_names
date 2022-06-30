@@ -33,7 +33,7 @@ This section is done on the Tableau visualization software, answering the most g
 A global overview of the visualization is presented below. The interactive components are accessible through the Tableau Software.
 
 <p align="center">
-  <img src="/Tableau/images/Tableau_Overview3.png", height=500/>
+  <img src="/Tableau/images/Tableau_Overview.png", height=500/>
 </p>
 
 #### Baby Names Evolution & Name popularity
@@ -49,12 +49,13 @@ We can use this to visualise the evolution of the top 10 or bottom 10 over time,
 
 One shortcoming of the visualization that should be pointed out is the fact that the computation for the bottom 10 is not theoretically correct.
 For an honest representation of the data, we should filter by year first, then choose the 10 least given names that year. 
-Tableau does the opposite as it ranks the names based on how many times they were given (all time across the country), and then filters on the Year. This is the only way we have found to allow the interactivity of the year filter (on the right), with the Race Bar Charts.
+Tableau does the opposite as it ranks the names based on how many times they were given (all time across the country), and then filters on the year. This is the only way we have found to allow the interactivity of the year filter (on the right) with the Race Bar Charts.
 
-The limits we saw to these *race bar charts*  is that we can only see the data from names that are in the top 10 for the given year (and not for any name that we might be interested in). Another limit is that we only see the data for a given year, which means we need to do some work mentally to represent the data over time.
+The limits we saw to these *Race Bar Charts*  is that we can only see the data from names that are in the top 10 for the given year (and not for any name that we might be interested in). Another limit is that we only see the data for a given year, which means we need to do some work mentally to represent the data over time.
 
 That is why we incorporated the upper right chart, which shows us the evolution of names *starting with* the value of the "Prénom" filter (or all if the field is blank).
 This helps us see the (un)popularity of the selected names over time. This solves the two previous issues by allowing to filter by names (i.e. letting the user select a name of his/her choice), and by showing the evolution over time directly (as time is encoded through the x-axis).
+The legend of this figure rests on the right of the dashboard (*Prénom* : shows correspondance between the colors of the curves and the corresponding names).
 
 The lower graph, on the other hand, illustrates the yearly evolution of top 10 attributed names of all time. The choice of the stacked graph here is justified by the *Pop-Out* effect it generates, as each name is encoded by a different color, allowing the viewer to immediately see how the popularity of names rises and falls.
 
