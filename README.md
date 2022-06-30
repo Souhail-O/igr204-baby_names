@@ -23,7 +23,7 @@ In this mini-project, we will be working with a data set of baby names in France
 Our goal is to create 3 different visualizations around these data, each focussed on answering different kinds of questions about the data:
 
 ## **Visualization 1**: 
-This section is done on the Tableau visualization sotfware, answering the most general questions to get a feeling of our data. The questions it aims to anwser are : 
+This section is done on the Tableau visualization software, answering the most general questions to get a feeling of our data. The questions it aims to answer are : 
   - Are there trends in time?
   - How do baby names evolve over time? 
   - Are there names that have consistently remained popular or unpopular? 
@@ -33,33 +33,24 @@ This section is done on the Tableau visualization sotfware, answering the most g
 A global overview of the visualization is presented below. The interactive components are accessible through the Tableau Software.
 
 <p align="center">
-  <img src="/Tableau/images/Tableau_Overview.png", height=500/>
+  <img src="/Tableau/images/Tableau_Overview2.png", height=500/>
 </p>
 
-#### Baby Names Evolution
-A quick analysis of 2 graphs at the bottom of the visualization (evolution of births over the last century by gender) allows us to clearly detect certain patterns. For example we can see how during the First and Second World Wars, the population went from a strong growing trend to a notable decline in births over the war periods. 
+#### Baby Names Evolution & Name popularity
 
-What is interesting is we can also see that right after the 2nd World War, there was a strong surge in natalities in france, going from an average of 630k births/year in the 1930s France to a whopping 860k births/year in the 1950s (a 25% increase).
+The 3 graphs on the top of the dashboard are the part of the visualization that help us answer all the questions we have asked before.
 
-Another trend this visualization reveals is the end of the "30 Glorieuses" during the mid 1970s, a post-war development boom, characterized by a strong economic growth.
+The main problem we encountered was the quantity of information in the dataset. We know that clutter is an issue that comes from the visualization, and not from the data, so that is what we tried to tackle through our work.
 
-The last insight from this chart that we'll focus on is the predictions for the 2020-2030 period as estimated by Tableau's in-built algorithm. We can clearly see the population decline in France has been ongoing for the past decade, and trends estimate that it will continue for the following decade.
+The two *race bar charts* (on the top-left of the visualization) show the top 10 and bottom 10 names for the selected year. Filtering by year is our way, here, to reduce the amount of information displayed to the user at once so it is manageable. 
+We can use this to visualise the evolution of the top 10 or bottom 10 over time, which allows us to see if names remained popular or unpopular on a national level over time, or if they were briefly popular or unpopular. 
 
-The data we have is binary (Male and Female). Therefore to be able to visualize the total number of births per year, we chose to use a stacked graph. 
+The limits we saw to these *race bar charts*  is that we can only see the data from names that are in the top 10 for the given year (and not for any name that we might be interested in). Another limit is that we only see the data for a given year, which means we need to do some work mentally to represent the data over time.
 
-#### Name popularity
+That is why we incorporated the upper right chart, which shows us the evolution of names *starting with* the value of the "Prénom" filter (or all if the field is blank).
+This helps us see the (un)popularity of the selected names over time. This solves the two previous issues by allowing to filter by names (i.e. letting the user select a name of his/her choice), and by showing the evolution over time directly (as time is encoded through the x-axis).
 
-The 2 graphs on the top of the dashboard are the part of the visualization that help us answer these questions : 
-  - Are there names that have consistently remained popular or unpopular? 
-  - Are there some that have were suddenly or briefly popular or unpopular? 
-
-The graph on the top left dynamically shows the top 10 attributed names for the considered year.
-It is useful as it reflects which names have remained in the ranking and for how long, depicting trends of names that remained popular over decades, such as "Marie" or "Pierre". It also allows us to see spikes (i.e. names whose popularity was brief, for example "Philippe"). 
-
-The graph on the top right shows us the evolution of names *starting with* the value of the "Prénom" filter (or all if the field is blank).
-This helps us see the (un)popularity of the selected names over time.
-
-The center graph, on the other hand, illustrates the yearly evolution of top 10 attributed names of all time. The choice of the stacked graph here is justified by the *Pop-Out* effect it generates, as each name is encoded by a different color, allowing the viewer to immediately see how the popularity of names rises and falls. 
+The lower graph, on the other hand, illustrates the yearly evolution of top 10 attributed names of all time. The choice of the stacked graph here is justified by the *Pop-Out* effect it generates, as each name is encoded by a different color, allowing the viewer to immediately see how the popularity of names rises and falls.
 
 ## **Visualization 2**:
 This segment uses Dash with Plotly, to try to answer these questions : 
