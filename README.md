@@ -18,9 +18,9 @@
   - Florian TORROBA<br>
 </p>
 
-In this mini-project, we will be working with a data set of baby names in France. It contains the list of all baby names registered in France, year by year, from 1900 through 2019. There are two data sets: one aggregated to the national level, and another with data by department. 
+In this mini-project, we will be working with a data set of baby names in France. It contains the list of all baby names registered in France, year by year, from 1900 through 2020. There are two data sets: one aggregated to the national level, and another with data by department. 
 
-Our goal is to create 3 different visualizations around these data, each focussed on answering different kinds of questions about the data:
+Our goal is to create 3 different visualizations around these data, each focused on answering different kinds of questions about the data:
 
 ## **Visualization 1**: 
 This section is done on the Tableau visualization software, answering the most general questions to get a feeling of our data. The questions it aims to answer are : 
@@ -33,7 +33,7 @@ This section is done on the Tableau visualization software, answering the most g
 A global overview of the visualization is presented below. The interactive components are accessible through the Tableau Software.
 
 <p align="center">
-  <img src="/Tableau/images/Tableau_Overview2.png", height=500/>
+  <img src="/Tableau/images/Tableau_Overview3.png", height=500/>
 </p>
 
 #### Baby Names Evolution & Name popularity
@@ -42,8 +42,14 @@ The 3 graphs on the top of the dashboard are the part of the visualization that 
 
 The main problem we encountered was the quantity of information in the dataset. We know that clutter is an issue that comes from the visualization, and not from the data, so that is what we tried to tackle through our work.
 
+We included interaction in our visualization through 2 filters. The year filter is connected to all graphs on the top of the visualization, and allows the user to explore the data through the time dimension. The "Prénom" filter is connected to the graph on the top-right of the visualization, and allows the user to focus on certain names.
+
 The two *race bar charts* (on the top-left of the visualization) show the top 10 and bottom 10 names for the selected year. Filtering by year is our way, here, to reduce the amount of information displayed to the user at once so it is manageable. 
 We can use this to visualise the evolution of the top 10 or bottom 10 over time, which allows us to see if names remained popular or unpopular on a national level over time, or if they were briefly popular or unpopular. 
+
+One shortcoming of the visualization that should be pointed out is the fact that the computation for the bottom 10 is not theoretically correct.
+For an honest representation of the data, we should filter by year first, then choose the 10 least given names that year. 
+Tableau does the opposite as it ranks the names based on how many times they were given (all time across the country), and then filters on the Year. This is the only way we have found to allow the interactivity of the year filter (on the right), with the Race Bar Charts.
 
 The limits we saw to these *race bar charts*  is that we can only see the data from names that are in the top 10 for the given year (and not for any name that we might be interested in). Another limit is that we only see the data for a given year, which means we need to do some work mentally to represent the data over time.
 
