@@ -20,7 +20,7 @@
 
 In this mini-project, we will be working with a data set of baby names in France. It contains the list of all baby names registered in France, year by year, from 1900 through 2020. There are two data sets: one aggregated to the national level, and another with data by department. 
 
-Our goal is to create 3 different visualizations around these data, each focused on answering different kinds of questions about the data:
+Our goal is to create 3 different visualizations around these data, each focused on answering different kinds of questions about the data.
 
 ## **Visualization 1**: 
 This section is done on the Tableau visualization software, answering the most general questions to get a feeling of our data. The questions it aims to answer are : 
@@ -30,7 +30,7 @@ This section is done on the Tableau visualization software, answering the most g
   - Are there some that have were suddenly or briefly popular or unpopular? 
 
 ### Analysis
-A global overview of the visualization is presented below. The interactive components are accessible through the Tableau Software.
+A global overview of the visualization is presented below. The interactive components are accessible through the Tableau Software (Tableau file attached at Tableau/baby_names.twb)
 
 <p align="center">
   <img src="/Tableau/images/Tableau_Overview.png", height=500/>
