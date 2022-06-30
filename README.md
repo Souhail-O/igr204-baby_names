@@ -111,6 +111,7 @@ We keep in mind, that it can lead to false interpretations if read too quickly (
 
 **Addendum**: Due to some technical difficulties, the option to filter the barchat while using 'Max names' choropleth map is disabled. Moreover, filtering by name can take a bit of time.
 
+## **Visualization 3**:
 This segment uses Dash with Plotly, to try to answer these questions:
  - Are there gender effects in the data?
  - Does popularity of names given to both sexes evolve consistently?
