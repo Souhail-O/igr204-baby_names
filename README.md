@@ -155,10 +155,10 @@ There are however two exceptions: Camille which remained fairly popular for both
 </p>
 
 If we click on 'Camille', we can see its distribution through time. We can see that that before 1960, this name was mostly given to boys and after 1970, that it was mostly given to girls.
-During the period 1960-1970, the name was not popular which explains the strong variations occuring during those years as well as the pic of 1963 shown in the previous image.
+During the period 1960-1970, the name was not popular which explains the strong variations occuring during those years as well as the pike of 1963 shown in the previous image.
 
 <p align="center">
   <img src="/Dash/Dash_7.png", height=250/>
 </p>
 
-If we click on 'Joan', we can observe that before 1960, the name was not popular and was almost exclusively given to girls. However starting from 1960, the name became incrreasingly popular bu only with boys. During a short period of time, it was given almost equally to boys and girls thus explaining the distribution values during this period.
+If we click on 'Joan', we can observe that before 1960, the name was not popular and was almost exclusively given to girls. However starting from 1960, the name became increasingly popular but only with boys. During a short period of time, it was given almost equally to boys and girls thus explaining the distribution values during this period.
