@@ -30,7 +30,8 @@ This section is done on the Tableau visualization software, answering the most g
   - Are there some that have were suddenly or briefly popular or unpopular? 
 
 ### Analysis
-A global overview of the visualization is presented below. The interactive components are accessible through the Tableau Software (Tableau file attached at Tableau/baby_names.twb)
+A global overview of the visualization is presented below. The interactive components are accessible through the Tableau Software.
+(Tableau file attached at *Tableau/baby_names.twb*)
 
 <p align="center">
   <img src="/Tableau/images/Tableau_Overview.png", height=500/>
